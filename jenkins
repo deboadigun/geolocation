@@ -16,7 +16,7 @@ pipeline {
                 sh 'mvn install'
                 sh 'mvn package'
 
-                sleep 4
+                sleep 3
             }
         }
 
@@ -24,7 +24,7 @@ pipeline {
             steps {
                 sh 'mvn test'
 
-                sleep 4
+                sleep 3
             }
         }
 
